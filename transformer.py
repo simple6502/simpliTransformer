@@ -168,8 +168,8 @@ class Block(nn.Module):
         x = x + self.ffwd(self.ln2(x))  #Residual connection with Feed-Forward Network
         return x  #Output has shape (B, T, C)
 
-#Defining Bigram Language Model using torch.nn.Module
-class BigramLanguageModel(nn.Module):
+#Defining Transformer Language Model using torch.nn.Module
+class TransformerLanguageModel(nn.Module):
     def __init__(self):
         super().__init__()
         self.token_embedding_table = nn.Embedding(vocab_size, n_embed) #Token Embedding Table
@@ -218,7 +218,7 @@ class BigramLanguageModel(nn.Module):
             idx = torch.cat((idx, idx_next), dim=1)  #(B, T+1)
         return idx
 
-model = BigramLanguageModel()  #Create a Bigram Language Model
+model = TransformerLanguageModel()  #Create a Transformer Language Model
 m = model.to(device)  #Move model to selected 'device'
 print(f"{sum(p.numel() for p in m.parameters()):,d}", 'parameters')  #Print the number of parameters in the model
 
