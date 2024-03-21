@@ -2,8 +2,6 @@
 
 ## Overview
 
-The model is built using PyTorch and consists of the following key components:
-
 - **Data Preprocessing**: Downloads the tiny Shakespeare dataset, handles character-level tokenization, and encodes the dataset into integer sequences.
 - **Model Architecture**: Implements the Transformer architecture, including the Multi-Head Attention mechanism, Feed-Forward network, and stacked Transformer blocks.
 - **Training Loop**: Defines the training loop, loss function, and optimization algorithm for training the language model on the character-level dataset.
