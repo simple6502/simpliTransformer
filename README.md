@@ -1,4 +1,4 @@
-# simpliTransformer - A Dead simple, Character-level, Transformer-based Language Model
+# simpliTransformer - A dead simple, character-level, transformer-based language model
 
 ## Overview
 
