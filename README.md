@@ -14,6 +14,7 @@ The `transformer.py` file is heavily commented to allow for anyone to go in and 
 - Python 3.x
 - PyTorch
 - requests
+- numpy
 
 ## Usage
 
