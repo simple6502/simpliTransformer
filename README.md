@@ -19,6 +19,7 @@ The `transformer.py` file is heavily commented to allow for anyone to go in and 
 ## Usage
 
 1. Clone the repository.
+2. Installed nessasary requirements.  (Can be installed using this command: `pip install torch numpy`)
 2. Run the `transformer.py` script to train the model and generate text samples.
 
 ## Acknowledgements
