@@ -11,7 +11,6 @@ The `transformer.py` file is heavily commented to allow for anyone to go in and 
 
 ## Requirements
 
-- Python 3.x
 - PyTorch
 - requests
 - numpy
