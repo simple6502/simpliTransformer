@@ -23,4 +23,4 @@ The `transformer.py` file is heavily commented to allow for anyone to go in and 
 
 ## Acknowledgements
 
-This implementation is based on Andrej Karpathy's ["Let's build GPT: from scratch, in code, spelled out"](https://www.youtube.com/watch?v=kCc8FmEb1nY) video lecture, with additional documentation and explanation provided by Claude 3 Sonnet because I am bad at explaining things.
+This implementation is based on Andrej Karpathy's ["Let's build GPT: from scratch, in code, spelled out"](https://www.youtube.com/watch?v=kCc8FmEb1nY) video lecture, with additional documentation and explanation provided by Claude 3 Sonnet.
